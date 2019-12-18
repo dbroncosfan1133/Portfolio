@@ -1,0 +1,45 @@
+body {
+    background-image: url('../images/white-waves.png');
+}
+
+p {
+    font-size: 20px;
+}
+
+#myName {
+    font-size: 35px;
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+#bio-img {
+    float: left;
+    width: 299px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#myFooter {
+    padding: 3rem 1.5rem 3rem;
+}
+
+#content {
+    width: 960px;
+}
+
+#about {
+    font-size: 30px;
+    color: #3b3b3b;
+}
+
+.myPages {
+    color: #ffffff;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
