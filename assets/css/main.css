@@ -1,5 +1,10 @@
+html {
+    height: 100%;
+}
+
 body {
     background-image: url('../images/white-waves.png');
+    height: 100%;
 }
 
 p {
@@ -10,12 +15,13 @@ p {
     font-size: 35px;
     background-color: #3b3b3b;
     color: #ffffff;
+    margin-left: 14px;
 }
 
 #bio-img {
     float: left;
-    width: 299px;
-    height: 200px;
+    width: 440px;
+    height: 300px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -31,13 +37,11 @@ p {
 #about {
     font-size: 30px;
     color: #3b3b3b;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dddddd;
 }
 
-.myPages {
-    color: #ffffff;
-}
-
-.container {
+#pageMain {
     background-color: #ffffff;
     padding: 20px;
     margin-top: 25px;

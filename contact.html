@@ -14,34 +14,143 @@
 
 <body>
     <nav id="myNav" class="navbar" role="navigation" aria-label="site nav">
-        <div class="navbar-brand">
-            <h1 id="myName" class="navbar-item">
-                Curtis Allen
-            </h1>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
-        <div id="mainNav" class="navbar-menu">
-            <div class="navbar-end">
-                <a class="navbar-item" href="index.html">About Me</a>
-                <a class="navbar-item" href="portfolio.html">Portfolio</a>
-                <a class="navbar-item" href="contact.html">Contact Me</a>
+        <div class="container">
+            <div class="navbar-brand">
+                <h1 id="myName" class="navbar-item">
+                    Curtis Allen
+                </h1>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="mainNav">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="mainNav" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="index.html">About Me</a>
+                    <a class="navbar-item" href="portfolio.html">Portfolio</a>
+                    <a class="navbar-item" href="contact.html">Contact Me</a>
+                </div>
             </div>
         </div>
     </nav>
-    <div class="container">
+    <div class="container" id="pageMain">
         <h1 id="about">Contact Me</h1>
-
-    </div>
-    <footer id="myFooter" class="footer">
+        <div class="columns">
+            <div class="column">
+                <div class="field">
+                    <label class="label">Name:</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Enter your name..">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email:</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="Enter your email address..">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Message:</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Enter your message.."></textarea>
+                    </div>
+                </div>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-danger" id="submit">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <span>Submit</span>
+                        </button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-light" id="cancel">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column" id="contactInfo">
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <th>Links:</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="icon">
+                                        <i class="has-icons-left fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub Page:</span>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/dbroncosfan1133">dbroncosfan1133</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </span>
+                                    <span>Linkedin Page:</span>
+                                </td>
+                                <td>
+                                    <a href="https://www.linkedin.com/in/curtis-allen-726198156">Curtis Allen</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="icon">
+                                        <i class="fas fa-at"></i>
+                                    </span>
+                                    <span>Email:</span>
+                                </td>
+                                <td>
+                                    <span>dbroncosfan@gmail.com</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="icon">
+                                        <i class="fas fa-mobile"></i>
+                                    </span>
+                                    <span>Phone:</span>
+                                </td>
+                                <td>
+                                    <span>(435) 512-1969</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="icon">
+                                        <i class="fas fa-file"></i>
+                                    </span>
+                                    <span>My Resume:</span>
+                                </td>
+                                <td>
+                                    <a href="">Resume Placeholder..</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--<footer id="myFooter" class="footer">
         <div class="content has-text-centered">
             <p>Copyright&copy;</p>
         </div>
-    </footer>
-    <script type="text/javascript" src="assets/js/mobilenav.js"></script>
+    </footer>-->
+        <script type="text/javascript" src="assets/js/mobilenav.js"></script>
 </body>
 
 </html>
