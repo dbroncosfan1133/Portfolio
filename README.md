@@ -1,2 +1,1 @@
 # Portfolio
-permalink: /index.html
