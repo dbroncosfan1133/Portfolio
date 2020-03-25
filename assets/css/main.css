@@ -4,7 +4,7 @@ html {
 
 body {
     background-image: url('../images/white-waves.png');
-    height: auto;
+    height: 100%;
 }
 
 p {
@@ -30,8 +30,28 @@ hr {
     margin-bottom: 20px;
 }
 
-#myFooter {
+#portfolioFooter {
     padding: 3rem 1.5rem 3rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#contactFooter {
+    padding: 3rem 1.5rem 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#aboutFooter {
+    padding: 3rem 1.5rem 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #content {
@@ -50,4 +70,8 @@ hr {
     padding: 20px;
     margin-top: 25px;
     margin-bottom: 45px;
+}
+
+#portfolioBody {
+    height: min-content;
 }
